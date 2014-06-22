@@ -8,7 +8,7 @@ class Veclibfort < Formula
 
   option "without-check", "Skip build-time tests (not recommended)"
 
-  depends_on :fortran
+  depends_on :gcc
 
   def install
     ENV.m64 if MacOS.prefer_64_bit?
