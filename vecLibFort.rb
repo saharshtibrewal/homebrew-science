@@ -8,7 +8,6 @@ class Veclibfort < Formula
 
   option "without-check", "Skip build-time tests (not recommended)"
 
-  depends_on :gfortran
   depends_on :gcc
 
   def install
